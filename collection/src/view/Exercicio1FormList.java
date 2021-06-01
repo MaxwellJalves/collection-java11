@@ -2,6 +2,7 @@ package view;
 
 import Entity.Aluno;
 import Entity.Nota;
+import Entity.UnidadeMedida;
 
 import java.util.ArrayList;
 import java.util.Arrays;

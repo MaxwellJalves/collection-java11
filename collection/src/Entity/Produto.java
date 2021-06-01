@@ -1,37 +1,54 @@
 package Entity;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Produto {
 
     private int id;
     private String nome;
-    private UnidadeMedida unidadeMedida;
+    private UnidadeMedida un;
+    public static List<Produto> listaDb = new ArrayList<>();
 
-    public Produto(int id, String nome, UnidadeMedida unidadeMedida) {
+    public Produto(int id, String nome, UnidadeMedida un) {
         this.id = id;
         this.nome = nome;
-        this.unidadeMedida = unidadeMedida;
+        this.un = un;
     }
 
-public int getId() {
+    public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getNome() {
         return nome;
     }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
+    
     public UnidadeMedida getUnidadeMedida() {
-        return unidadeMedida;
+        return un;
+    }
+    
+    public static boolean Adicionar(Produto produto) {
+        try{
+            Produto.listaDb.add(produto);
+            return true;
+        }catch(Exception e){
+            return false;
+        }
+
     }
 
-    public void setUnidadeMedida(UnidadeMedida unidadeMedida) {
-        this.unidadeMedida = unidadeMedida;
+    public static void listarItens(){
+        for(Produto p : Produto.listaDb){
+            System.out.println(p);
+        }
+    }
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", un=" + un +
+                '}';
     }
 }
