@@ -26,3 +26,5 @@ Analise da HJierarquida co Collections Framework.
 - Implementação -[Vector] é utilizado em threads
 - ArrayList     -[List  ] Deve ser usado onde mais operações de pesquisa são necessárias.
 - LinkedList    -[implements (List::Queue)] Deve ser usado one mais operações de inserção e exlusão são necessárias.
+
+![hierarquia collections](https://user-images.githubusercontent.com/65586669/120273500-f5c91600-c284-11eb-90bc-611dba159999.jpg)
