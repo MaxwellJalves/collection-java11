@@ -28,3 +28,6 @@ Analise da HJierarquida co Collections Framework.
 - LinkedList    -[implements (List::Queue)] Deve ser usado one mais operações de inserção e exlusão são necessárias.
 
 ![hierarquia collections](https://user-images.githubusercontent.com/65586669/120273500-f5c91600-c284-11eb-90bc-611dba159999.jpg)
+
+Incluido ao Projeto um arquivo XML para poder Implementar e estrutuar um Schema e complexTypes ao projeto
+
