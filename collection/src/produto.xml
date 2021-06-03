@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<produtos>
+    <produto>
+        <id>1010</id>
+        <nome>CAFÉ CAPSULA</nome>
+        <valor>5.20</valor>
+    </produto>
+    <produto>
+        <id>1011</id>
+        <nome>CAFE PILÃO</nome>
+        <valor>5.20</valor>
+    </produto>
+    <produto>
+        <id>1012</id>
+        <nome>MAIS CAFE</nome>
+        <valor>5.20</valor>
+    </produto>
+    <produto>
+        <id>1013</id>
+        <nome>MAIS CAFE</nome>
+        <valor>5.20</valor>
+    </produto>
+    <produto>
+        <id>1014</id>
+        <nome>MAIS CAFE</nome>
+        <valor>5.20</valor>
+    </produto>
+</produtos>
