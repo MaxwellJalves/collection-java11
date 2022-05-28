@@ -4,7 +4,7 @@ public enum UnidadeMedida {
 
     UN("unidade(s)"),
     LT("litro(s)"),
-    KG("quilo(s)"),
+    KG("quilo(s)");
 
     private String name;
     UnidadeMedida(String value){
