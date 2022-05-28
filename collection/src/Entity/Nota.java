@@ -24,8 +24,8 @@ public class Nota {
     }
 
     /*Recebe uma lista e retorna a posição solicitada para a view*/
-    public static Double getPosicao(List<Nota> lista, int d){
-      return  Double.valueOf(lista.indexOf(d));
+    public static Double getPosicao(List<Nota> lista, int d) {
+        return Double.valueOf(lista.indexOf(d));
     }
 
     @Override

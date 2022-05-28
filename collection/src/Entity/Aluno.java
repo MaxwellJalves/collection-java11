@@ -11,9 +11,9 @@ public class Aluno {
 
     }
 
-    public static Aluno getAluno(int codigo,String nome){
+    public static Aluno getAluno(int codigo, String nome) {
 
-        return new Aluno(codigo,nome);
+        return new Aluno(codigo, nome);
     }
 
     public int getId() {
@@ -25,12 +25,11 @@ public class Aluno {
     }
 
 
-
-@Override
+    @Override
     public String toString() {
         return "Aluno{" +
                 "id=" + id +
-                ", nome='" + nome + '\'' +"Unidade de Medida" +
+                ", nome='" + nome + '\'' + "Unidade de Medida" +
                 '}';
     }
 
